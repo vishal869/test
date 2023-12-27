@@ -1049,7 +1049,7 @@
         margin:0 auto;
     }
     .hero_sec_content{
-        padding-top: 160px;
+        padding-top: 180px;
     }
 
     .hero_sec_content h1{
@@ -1062,7 +1062,7 @@
         display: none;
     }
     .logo_ui{
-        height: 12vw;
+        height: 17vw;
     }
     .inner_content{
         max-width: 100%;
@@ -1081,3 +1081,14 @@
     /*}*/
 }
 
+@media (max-width: 480px){
+    .logo_ui {
+        height: 20vw;
+    }
+    .hero_sec_content{
+        padding-top: 190px;
+    }
+    .hero_sec_content h1{
+        font-size: 11vw;
+    }
+}
