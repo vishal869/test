@@ -846,6 +846,15 @@
 }
 
 @media (max-width: 767px){
+    .sidenav_listing{
+        width:200px;
+    }
+    .sidenav_listing li{
+        height:160px;
+    }
+    .menu_btn.active{
+        transform: translateX(-210px);
+    }
     .add_placements_wrapper .cs_container{
         padding: 0 10px;
     }
