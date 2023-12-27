@@ -52,7 +52,7 @@
 }
 .logo_ui{
   /*height:98px;*/
-    height:6vw;
+    width:12vw;
 }
 .logo_ui img{
   width:100%;
@@ -561,7 +561,7 @@
     padding:50px 50px;
 }
 .cs_footer .logo_sec a{
-    height:120px;
+   width:245px;
     display: inline-flex;
 }
 .cs_footer .logo_sec img{
@@ -1062,7 +1062,7 @@
         display: none;
     }
     .logo_ui{
-        height: 17vw;
+        width:25vw;
     }
     .inner_content{
         max-width: 100%;
@@ -1083,10 +1083,10 @@
 
 @media (max-width: 480px){
     .logo_ui {
-        height: 20vw;
+        width:40vw;
     }
     .hero_sec_content{
-        padding-top: 190px;
+        padding-top: 170px;
     }
     .hero_sec_content h1{
         font-size: 11vw;
