@@ -829,6 +829,11 @@
 
 
 /* responsive css start here */
+@media (max-width:1500px){
+    .add_two .inner_content{
+        max-width: 55vw;
+    }
+}
 @media (max-width: 1420px){
     .cs_container{
         min-width: 100%;
